@@ -1,0 +1,108 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #000000;
+}
+
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.nav-container {
+  height: 73px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.nav-container h1{
+  font-size: 3em;
+  font-weight: 400;
+
+}
+
+.background-img{
+  margin-bottom: 30px;
+}
+
+.background-img img{
+  width: 100%;
+  height: auto;
+}
+
+.container-two{
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  height: 348px;
+  justify-content: center;
+  align-items: center;
+}
+.container-two p{
+  text-align: left;
+  width: 50%;
+    padding: 80px;
+}
+
+section{
+
+  background-color: #1E1A13;
+  color: #ffffff;
+  height: 348px;
+
+}
+
+section h1{
+display: flex;
+justify-content: center;
+font-size: 40px;
+padding-top: 75px;
+font-weight: 400;
+}
+.container-icon{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.icon-features{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.icon-features p{
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.gallery{
+  display: flex;
+  justify-content: center;
+  padding: 73px;
+  background-color: #000000;
+  gap: 20px;
+}
+
+
+footer{
+  background-color: #1E1A13;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  font-size: 20px;
+  color: #ffffff;
+}
